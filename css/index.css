@@ -15,3 +15,47 @@
 @import url(
     'https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
 ); /* libre franklin */ /* font-family: 'Libre Franklin', sans-serif; */
+
+* {
+    background-color: rgb(41, 43, 45);
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    color: #f3f3f3;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    color: #c1c1c1;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #ff1d4e;
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+span {
+    color: #f3f3f3;
+    transition: all 0.3s;
+}
+
+span:hover {
+    color: #ff1d4e;
+    cursor: pointer;
+    transition: all 0.3s;
+}
