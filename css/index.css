@@ -40,7 +40,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: #ff1d4e;
+    color: #fa1d54;
     transition: all 0.3s;
 }
 
@@ -55,7 +55,7 @@ span {
 }
 
 span:hover {
-    color: #ff1d4e;
+    color: #fa1d54;
     cursor: pointer;
     transition: all 0.3s;
 }
