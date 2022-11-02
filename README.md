@@ -1,2 +1,3 @@
-# me
- personal portfolio site source
+# decov's personal portfolio
+
+personal portfolio site source code
