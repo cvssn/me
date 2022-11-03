@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text = auto
+
+# fazendo com que os arquivos markdown sejam reconhecíveis no repositório
+*.md text linguist-detectable
