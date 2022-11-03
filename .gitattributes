@@ -4,4 +4,4 @@
 *.md text linguist-detectable
 
 # fazendo com que os arquivos minimizados sejam reconhecíveis no repositório
-*.min.* linguist-detectable
+*.min.* text linguist-detectable
