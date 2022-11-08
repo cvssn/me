@@ -27,11 +27,17 @@ some social networks or things like that...
 
 below is a **list** of dependencies that were used and helped in the development and creation of the site. consider check and support them.
 
-- ### balloon / [website]()
+- ### balloon.css / [website](https://kazzkiq.github.io/balloon.css/) / [github](https://github.com/kazzkiq/balloon.css)
+
+balloon.css lets you add tooltips to elements without javascript and in just a few lines of css.
 
 - ### cdnjs / [website](https://cdnjs.com) / [github](https://github.com/cdnjs/cdnjs)
 
 free and open-source cdn service, serving over 200 billion requests each month.
+
+- ### Color Hunt / [website](https://colorhunt.co/)
+
+color hunt it is a online website that's allows you to find and create some color palettes to increase your ideas.
 
 - ### EditorConfig / [website](https://editorconfig.org/) / [docs](https://docs.editorconfig.org/en/master/) / [github](https://github.com/editorconfig/)
 
@@ -41,23 +47,23 @@ file format and collection of text editor plugins for maintaining consistent cod
 
 quickly generate your favicon from text, image, or choose from hundreds of emojis.
 
-- ### **Font Awesome** [website](https://fontawesome.com/) - [docs](https://fontawesome.com/docs) - [github](https://github.com/FortAwesome/Font-Awesome)
+- ### **Font Awesome** / [website](https://fontawesome.com/) / [docs](https://fontawesome.com/docs) / [github](https://github.com/FortAwesome/Font-Awesome)
 
 icon library and toolkit, used by millions of designers, developers, and content creators.
 
-- ### **Git** [website](https://git-scm.com/) - [docs](https://git-scm.com/doc) - [github](https://github.com/git/git)
+- ### **Git** / [website](https://git-scm.com/) / [docs](https://git-scm.com/doc) / [github](https://github.com/git/git)
 
 free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-- ### **Google Fonts** [website](https://fonts.google.com/)
+- ### **Google Fonts** / [website](https://fonts.google.com/)
 
 free and online font service
 
-- ### **highlight.js** [website](https://highlightjs.org/) - [docs](https://highlightjs.readthedocs.io/en/latest/) - [github](https://github.com/highlightjs/highlight.js/)
+- ### **highlight.js** / [website](https://highlightjs.org/) / [docs](https://highlightjs.readthedocs.io/en/latest/) / [github](https://github.com/highlightjs/highlight.js/)
 
 free and open-source syntax highlighting for the web.
 
-- ### **MIT License** [website](https://opensource.org/licenses/MIT)
+- ### **MIT License** / [website](https://opensource.org/licenses/MIT)
 
 Copyright 2022 decov
 
