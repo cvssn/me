@@ -1,0 +1,14 @@
+/*
+    cor do tema: tokyo
+    tipo de tema: cores neons
+    cores referenciais: preto, roxo, azul, rosa
+    sinônimos: neon, laser, tokyo, 
+*/
+
+:root {
+    --fundo: #000000;
+    --fundo-2: #150050;
+    --h1: #fb2576;
+    --h3: #3f0071;
+    --p: #eeeeee;
+}

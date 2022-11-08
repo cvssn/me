@@ -1,0 +1,14 @@
+/*
+    cor do tema: gardenal
+    tipo de tema: cores esverdeadas e claras
+    cores referenciais: verde, branco
+    sinônimos: grama, esmeralda, folha
+*/
+
+:root {
+    --fundo: #425f57;
+    --fundo-2: #749f82;
+    --h1: #a8e890;
+    --h3: #cfff8d;
+    --p: #d7ffdd;
+}

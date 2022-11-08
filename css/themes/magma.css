@@ -1,0 +1,14 @@
+/*
+    cor do tema: magma
+    tipo de tema: cores quentes
+    cores referenciais: laranja, vermelho, preto, amarelo
+    sinônimos: vulcão, inferno, fogo, lava, calor
+*/
+
+:root {
+    --fundo: #000000;
+    --fundo-2: #cf0a0a;
+    --h1: #dc5f00;
+    --h3: #ff9f55;
+    --p: #eeeeee;
+}
