@@ -129,3 +129,14 @@ span:hover {
     cursor: pointer;
     transition: all 0.3s;
 }
+
+header a {
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+header a i:hover {
+    color: #fa1d54;
+    cursor: pointer;
+}
