@@ -1,0 +1,24 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "my personal portfolio website.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decov/me.git"
+  },
+  "author": "decov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decov/me/issues"
+  },
+  "homepage": "https://github.com/decov/me#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
