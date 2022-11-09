@@ -27,19 +27,19 @@ some social networks or things like that...
 
 below is a **list** of dependencies that were used and helped in the development and creation of the site. consider check and support them.
 
-- ### balloon.css / [website](https://kazzkiq.github.io/balloon.css/) / [github](https://github.com/kazzkiq/balloon.css)
+- ### **balloon.css** / [website](https://kazzkiq.github.io/balloon.css/) / [github](https://github.com/kazzkiq/balloon.css)
 
 balloon.css lets you add tooltips to elements without javascript and in just a few lines of css.
 
-- ### cdnjs / [website](https://cdnjs.com) / [github](https://github.com/cdnjs/cdnjs)
+- ### **cdnjs** / [website](https://cdnjs.com) / [github](https://github.com/cdnjs/cdnjs)
 
 free and open-source cdn service, serving over 200 billion requests each month.
 
-- ### Color Hunt / [website](https://colorhunt.co/)
+- ### **Color Hunt** / [website](https://colorhunt.co/)
 
 color hunt it is a online website that's allows you to find and create some color palettes to increase your ideas.
 
-- ### EditorConfig / [website](https://editorconfig.org/) / [docs](https://docs.editorconfig.org/en/master/) / [github](https://github.com/editorconfig/)
+- ### **EditorConfig** / [website](https://editorconfig.org/) / [docs](https://docs.editorconfig.org/en/master/) / [github](https://github.com/editorconfig/)
 
 file format and collection of text editor plugins for maintaining consistent coding styles between different editors and ides.
 
@@ -63,6 +63,10 @@ free and online font service
 
 free and open-source syntax highlighting for the web.
 
+- ### **Markdown** / [guide](https://www.markdownguide.org/)
+
+markdown is a lightweight markup language for creating formatted text using a plain-text editor.
+
 - ### **MIT License** / [website](https://opensource.org/licenses/MIT)
 
 Copyright 2022 decov
@@ -72,3 +76,11 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+- ### **Moment.js** / [website](https://momentjs.com/) / [docs](https://momentjs.com/docs/) / [github](https://github.com/moment/moment/)
+
+moment.js parse, validate, manipulate, and display dates in javascript.
+
+- ### **Node.js** [website](https://nodejs.org/en/) / [docs](https://nodejs.org/en/docs/) / [github](https://github.com/nodejs/node)
+
+node.js is an open-source, cross-platform JavaScript runtime environment.
