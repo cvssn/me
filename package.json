@@ -1,7 +1,7 @@
 {
   "name": "me",
   "version": "1.0.0",
-  "description": "my personal portfolio website.",
+  "description": "my personal portfolio website source code.",
   "directories": {
     "test": "test"
   },
