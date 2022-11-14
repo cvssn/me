@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/decov/me#readme",
   "dependencies": {
+    "balloon-css": "^1.2.0",
+    "editorconfig": "^1.0.1",
     "highlight.js": "^11.6.0",
     "moment": "^2.29.4"
   }
