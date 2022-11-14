@@ -1,0 +1,14 @@
+/*
+    cor do tema: dark
+    tipo de tema: cores escuras
+    cores referenciais: preto, cinza, branco
+    sinônimos: escuro, sombrio, escuridão, sombra
+*/
+
+:root {
+    --fundo: #000000;
+    --fundo-2: #1a1a1a;
+    --h1: #ffdeeb;
+    --h3: #b8b8b8;
+    --p: #eeeeee;
+}

@@ -1,0 +1,14 @@
+/*
+    cor do tema: light
+    tipo de tema: cores claras
+    cores referenciais: branco, cinza, preto
+    sinônimos: céu, luz, brilho, claridade
+*/
+
+:root {
+    --fundo: #000000;
+    --fundo-2: #150050;
+    --h1: #fb2576;
+    --h3: #3f0071;
+    --p: #eeeeee;
+}
