@@ -93,3 +93,7 @@ moment.js parse, validate, manipulate, and display dates in javascript.
 - ### **Node.js** [website](https://nodejs.org/en/) / [docs](https://nodejs.org/en/docs/) / [github](https://github.com/nodejs/node)
 
 node.js is an open-source, cross-platform JavaScript runtime environment.
+
+- ### **normalize.css** [website](https://necolas.github.io/normalize.css/) [github](https://github.com/necolas/normalize.css)
+
+small CSS file that provides better cross-browser consistency in the default styling of HTML elements.
