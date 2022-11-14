@@ -22,6 +22,8 @@ some social networks or things like that...
 - [github](https://github.com/decov)
 - [twitter](https://twitter.com/assincronia)
 - [spotify](https://open.spotify.com/user/8x0ksnv8ph7clfmsfii97mvhr)
+- [last.fm](https://www.last.fm/user/herdeaths)
+- [soundcloud](https://soundcloud.com/furstamp)
 
 ## /thirdparty
 
