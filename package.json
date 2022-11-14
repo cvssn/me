@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/decov/me#readme",
   "dependencies": {
+    "highlight.js": "^11.6.0",
     "moment": "^2.29.4"
   }
 }
