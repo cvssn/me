@@ -1,0 +1,223 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button, html input[type = "button"], input[type = "reset"] {
+    -webkit-appearance: button;
+    appearance: button;
+    cursor: pointer;
+}
+
+button [disabled], html input [disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: 'Graphik', sans-serif;
+    background-color: rgb(29, 31, 32);
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0.4em;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.utility-logo-link {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+}
+
+.text-mono {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #a4a4a4;
+}
+
+.utility-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #2c2828;
+}
+
+.utility-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.utility-content {
+    max-width: 580px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.utility-content h1 {
+    color: #f43665;
+    font-weight: 900;
+}
+
+.utility-content p {
+    font-style: italic;
+    color: #f3f3f3;
+    font-weight: 200;
+}
+
+.utility-logo {
+    width: 95px;
+    height: 25px;
+}
+
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    .utility-container {
+        width: 85%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('https://www.kapustin.co/fonts/Graphik-Medium-Web.abf6e1188f.woff2') format('woff2'),
+         url('https://www.kapustin.co/fonts/Graphik-Medium-Web.2523d1a466.eot') format('embedded-opentype'),
+         url('https://www.kapustin.co/fonts/Graphik-Medium-Web.4327644773.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('https://www.kapustin.co/fonts/Graphik-Regular-Web.5a0c1a002e.woff2') format('woff2'),
+         url('https://www.kapustin.co/fonts/Graphik-Regular-Web.5e78809d4d.eot') format('embedded-opentype'),
+         url('https://www.kapustin.co/fonts/Graphik-Regular-Web.9806bc37bf.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
