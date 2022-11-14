@@ -24,6 +24,13 @@ some social networks or things like that...
 - [spotify](https://open.spotify.com/user/8x0ksnv8ph7clfmsfii97mvhr)
 - [last.fm](https://www.last.fm/user/herdeaths)
 - [soundcloud](https://soundcloud.com/furstamp)
+- [wakatime](https://wakatime.com/@furs)
+
+### /game accounts
+
+- [tetr.io](https://ch.tetr.io/u/ekinotzy)
+- [quaver](https://quavergame.com/user/380860)
+- [lol](https://app.mobalytics.gg/lol/profile/br/always%201v9/overview)
 
 ## /thirdparty
 
