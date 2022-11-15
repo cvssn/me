@@ -1,7 +1,48 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
+); /* poppins */ /* font-family: 'Poppins', sans-serif; */
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'
+); /* roboto mono */ /* font-family: 'Roboto Mono', monospace; */
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap'
+); /* trispace */ /* font-family: 'Trispace', sans-serif; */
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
+); /* libre franklin */ /* font-family: 'Libre Franklin', sans-serif; */
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap'
+); /* dela gothic one */ /* font-family: 'Dela Gothic One', cursive; */
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('https://www.kapustin.co/fonts/Graphik-Medium-Web.abf6e1188f.woff2') format('woff2'),
+         url('https://www.kapustin.co/fonts/Graphik-Medium-Web.2523d1a466.eot') format('embedded-opentype'),
+         url('https://www.kapustin.co/fonts/Graphik-Medium-Web.4327644773.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('https://www.kapustin.co/fonts/Graphik-Regular-Web.5a0c1a002e.woff2') format('woff2'),
+         url('https://www.kapustin.co/fonts/Graphik-Regular-Web.5e78809d4d.eot') format('embedded-opentype'),
+         url('https://www.kapustin.co/fonts/Graphik-Regular-Web.9806bc37bf.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -111,9 +152,16 @@ p {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 2rem;
     line-height: 1.5;
+    font-weight: 300;
+    color: #939393;
+}
+
+.text-mono span {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
     font-weight: 600;
-    letter-spacing: 1px;
-    color: #a4a4a4;
+    color: #ffffff;
 }
 
 .utility-wrapper {
@@ -134,7 +182,7 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #2c2828;
+    background-color: rgb(29, 31, 32);
 }
 
 .utility-container {
@@ -168,13 +216,14 @@ p {
 }
 
 .utility-content h1 {
-    color: #f43665;
-    font-weight: 900;
+    color: #fa1d54;
+    font-weight: 700;
+    font-family: 'Dela Gothic One', cursive;
 }
 
 .utility-content p {
     font-style: italic;
-    color: #f3f3f3;
+    color: #e0e0e0;
     font-weight: 200;
 }
 
@@ -200,24 +249,4 @@ p {
     h1 {
         font-size: 2rem;
     }
-}
-
-@font-face {
-    font-family: 'Graphik';
-    src: url('https://www.kapustin.co/fonts/Graphik-Medium-Web.abf6e1188f.woff2') format('woff2'),
-         url('https://www.kapustin.co/fonts/Graphik-Medium-Web.2523d1a466.eot') format('embedded-opentype'),
-         url('https://www.kapustin.co/fonts/Graphik-Medium-Web.4327644773.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Graphik';
-    src: url('https://www.kapustin.co/fonts/Graphik-Regular-Web.5a0c1a002e.woff2') format('woff2'),
-         url('https://www.kapustin.co/fonts/Graphik-Regular-Web.5e78809d4d.eot') format('embedded-opentype'),
-         url('https://www.kapustin.co/fonts/Graphik-Regular-Web.9806bc37bf.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
 }
