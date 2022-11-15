@@ -130,12 +130,18 @@ h1 {
     line-height: 1.1;
     font-weight: 500;
     letter-spacing: -0.02em;
+
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 p {
     margin-bottom: 1em;
     font-size: 1.1rem;
     line-height: 1.7;
+
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .utility-logo-link {
@@ -154,6 +160,9 @@ p {
     line-height: 1.5;
     font-weight: 300;
     color: #939393;
+
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .text-mono span {
