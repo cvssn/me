@@ -19,6 +19,12 @@
           "meta[name=theme-color]"
         ]
       }
+    ],
+    "axe/time-and-media": [
+      "default",
+      {
+        "meta-refresh": "off"
+      }
     ]
   }
 }
