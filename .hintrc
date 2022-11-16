@@ -25,6 +25,12 @@
       {
         "meta-refresh": "off"
       }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
     ]
   }
 }
