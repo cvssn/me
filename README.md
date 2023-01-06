@@ -17,10 +17,10 @@ currently studying and practicing some languages and creating some fucking gener
 
 some social networks or things like that...
 
-- [steam](https://steamcommunity.com/id/mitigates/)
+- [steam](https://steamcommunity.com/id/decov/)
 - [instagram](https://www.instagram.com/hersgaze/)
 - [github](https://github.com/decov)
-- [twitter](https://twitter.com/assincronia)
+- [twitter](https://twitter.com/chrimerae)
 - [spotify](https://open.spotify.com/user/8x0ksnv8ph7clfmsfii97mvhr)
 - [last.fm](https://www.last.fm/user/herdeaths)
 - [soundcloud](https://soundcloud.com/furstamp)
