@@ -7,4 +7,49 @@
 :root {
     --bg-color: #323437;
     --main-color: #e2b714;
+    --caret-color: #e2b714;
+    --sub-color: #646669;
+    --sub-alt-color: #2c2e31;
+    --text-color: #d1d0c5;
+
+    --roundness: 0.5rem;
+    --font: 'Roboto Mono', 'Vazirmatn';
+
+    font-weight: 400;
+    scroll-padding-top: 2rem;
+
+    --balloon-border-radius: 2px;
+    --balloon-color: hsla(0, 0%, 6%, .95);
+    --balloon-text-color: #fff;
+    --balloon-font-size: 1rem;
+    --balloon-move: 4px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ao selecionar algum texto */
+::selection {
+    background-color: var(--main-color);
+    color: var(--sub-alt-color);
+}
+
+/* webkit scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: 0 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--sub-color);
+    border-radius: 2px !important;
+    transition: .125s;
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--sub-color);
 }
