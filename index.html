@@ -74,6 +74,40 @@
     </head>
 
     <body style="transition: all 0.25s ease 0s, transform 0.05s ease 0s; cursor: default;">
+        <noscript>
+            <div style="
+                background:#333;
+                width: 100vw;
+                height: 100vh;
+                left: 0;
+                top: 0;
+                position: fixed;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                color: #646669;
+                font-size: 1rem;
+                font-family: Roboto Mono;
+                z-index: 99999;
+                padding: 6rem;
+                box-sizing: border-box;
+            ">
+                <div style="
+                    display: grid;
+                    justify-content: center;
+                    align-content: center;
+                    max-width: 800px;
+                    gap: 1rem;
+                ">
+                    <span style="font-size: 4rem; color: #e2b714;"><i class="fa-brands fa-js"></i> - javascript error</span>
+
+                    <span style="font-size: 1.6rem; color: #d1d0c5;">
+                        it seems that your javascript is disabled... please enable it to access the website.
+                    </span>
+                </div>
+            </div>
+        </noscript>
+
         <div class="customBackground"></div>
 
         <div id="bannerCenter" class></div>
