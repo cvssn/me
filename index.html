@@ -52,13 +52,6 @@
         <!-- css -->
         <link rel="stylesheet" href="./css/styles.css">
 
-        <!-- scripts -->
-        <script>
-            document.addEventListener("keydown", (function (e) {
-                "Escape" == e.key && e.preventDefault();
-            }));
-        </script>
-
         <!-- styles -->
         <style>
             /* variáveis root */
@@ -71,6 +64,13 @@
                 --text-color: #d1d0c5;
             }
         </style>
+
+        <!-- scripts -->
+        <script>
+            document.addEventListener("keydown", (function (e) {
+                "Escape" == e.key && e.preventDefault();
+            }));
+        </script>
     </head>
 
     <body style="transition: all 0.25s ease 0s, transform 0.05s ease 0s; cursor: default;">
