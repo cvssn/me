@@ -1,6 +1,6 @@
 {
   "name": "me",
-  "version": "1.0.0",
+  "version": "1.14.2",
   "description": "my personal portfolio website source code.",
   "directories": {
     "test": "test"
@@ -23,6 +23,7 @@
     "editorconfig": "^1.0.1",
     "highlight.js": "^11.6.0",
     "moment": "^2.29.4",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "sass": "^1.57.1"
   }
 }
