@@ -1308,7 +1308,7 @@
 /* ao selecionar algum texto */
 ::selection {
     background-color: var(--main-color);
-    color: var(--sub-alt-color);
+    color: #ffffff;
 }
 
 /* app */
