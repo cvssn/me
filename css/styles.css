@@ -1294,6 +1294,7 @@
 :root {
     --roundness: 0.5rem;
     --font: "Roboto Mono", "Vazirmatn";
+    
     font-weight: 400;
     scroll-padding-top: 2rem;
 }
