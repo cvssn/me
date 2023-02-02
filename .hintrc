@@ -8,7 +8,10 @@
       {
         "ignore": [
           "text-size-adjust",
-          "scrollbar-width"
+          "scrollbar-width",
+          "aspect-ratio",
+          "height: fit-content",
+          "scrollbar-color"
         ]
       }
     ],

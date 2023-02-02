@@ -209,10 +209,17 @@
 }
 
 .page404 .content .image {
-    aspect-ratio: 1210/800;
-    background-image: url("https://monkeytype.com/images/monkeymeme.jpg");
+    aspect-ratio: 1610/800;
+    background-image: url("https://i.pinimg.com/564x/b1/99/eb/b199eb5281bef8467e3a5431a779b1a6.jpg");
     background-size: contain;
-    width: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.page404 .content .side .title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: "Lexend Deca";
 }
 
 .page404 .content .big {
