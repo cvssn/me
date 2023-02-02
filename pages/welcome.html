@@ -74,6 +74,29 @@
                 "Escape" == e.key && e.preventDefault();
             }));
         </script>
+
+        <!-- desativando atalho para ver source-code (ctrl + u) -->
+        <script>
+            document.onkeydown = function(e) {
+                if (e.ctrlKey && 
+                    (e.keyCode === 67 || 
+                    e.keyCode === 86 || 
+                    e.keyCode === 85 || 
+                    e.keyCode === 117)) {
+                        return false;
+                } else {
+                    return true;
+                }
+            };
+
+            $(document).keypress("u",function(e) {
+                if(e.ctrlKey) {
+                    return false;
+                } else {
+                    return true;
+                }
+            });
+        </script>
     </head>
 
     <body style="transition: all 0.25s ease 0s, transform 0.05s ease 0s; cursor: default;">
