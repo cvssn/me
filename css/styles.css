@@ -5547,138 +5547,345 @@ textarea:-webkit-autofill:hover {
     width: 100%;
 }
 
-.profile .details .avatarAndName .levelAndBar .xpBar .bar{background:var(--main-color);border-radius:var(--roundness);height:100%;left:0;width:50%}
+.profile .details .avatarAndName .levelAndBar .xpBar .bar {
+    background: var(--main-color);
+    border-radius: var(--roundness);
+    height: 100%;
+    left: 0;
+    width: 50%;
+}
 
-.profile .details .avatarAndName .levelAndBar .xp{color:var(--sub-color);font-size:.75rem;justify-self:end}
+.profile .details .avatarAndName .levelAndBar .xp {
+    color: var(--sub-color);
+    font-size: .75rem;
+    justify-self: end;
+}
 
-.profile .details .socials{display:grid;justify-content:end}
+.profile .details .socials {
+    display: grid;
+    justify-content: end;
+}
 
-.profile .details .socials .title{display:none}
+.profile .details .socials .title {
+    display: none;
+}
 
-.profile .details .socials .value{align-items:center;display:grid;gap:.25rem;height:100%;width:max-content}
+.profile .details .socials .value {
+    align-items: center;
+    display: grid;
+    gap: .25rem;
+    height: 100%;
+    width: max-content;
+}
 
-.profile .details .socials .value a{color:var(--text-color)}
+.profile .details .socials .value a {
+    color: var(--text-color);
+}
 
-.profile .details .socials .value a:hover{color:var(--main-color)}
+.profile .details .socials .value a:hover {
+    color: var(--main-color);
+}
 
-.profile .details .typingStats{gap:.5rem;width:100%}
+.profile .details .typingStats {
+    gap: .5rem;
+    width: 100%;
+}
 
 .profile .details .bioAndKeyboard,
-.profile .details .typingStats{align-content:space-around;align-self:stretch;display:grid;grid-auto-flow:column}
+.profile .details .typingStats {
+    align-content: space-around;
+    align-self: stretch;
+    display: grid;
+    grid-auto-flow: column;
+}
 
-.profile .details .bioAndKeyboard{gap:1rem}
+.profile .details .bioAndKeyboard {
+    gap: 1rem;
+}
 
 .profile .details .bio .value,
-.profile .details .keyboard .value{white-space:pre-line}
+.profile .details .keyboard .value {
+    white-space: pre-line;
+}
 
 .profile .details .bioAndKeyboard.vertical,
-.profile .details .typingStats.vertical{grid-auto-flow:row}
+.profile .details .typingStats.vertical {
+    grid-auto-flow: row;
+}
 
-.profile .details .separator{background:var(--bg-color);border-radius:var(--roundness);height:100%;width:.5rem}
+.profile .details .separator {
+    background: var(--bg-color);
+    border-radius: var(--roundness);
+    height: 100%;
+    width: .5rem;
+}
 
-.profile .details .big .value{font-size:1.5rem;line-height:1.3rem}
+.profile .details .big .value {
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+}
 
-.profile .details .socials .value{margin-top:.05rem}
+.profile .details .socials .value {
+    margin-top: .05rem;
+}
 
-.profile .details .title{color:var(--sub-color);font-size:.8rem}
+.profile .details .title {
+    color: var(--sub-color);
+    font-size: .8rem;
+}
 
-.profile .personalBestTables{grid-area:pbs}
+.profile .personalBestTables {
+    grid-area: pbs;
+}
 
-::-webkit-scrollbar{width:7px}
+::-webkit-scrollbar {
+    width: 7px;
+}
 
-::-webkit-scrollbar-track{background:0 0}
+::-webkit-scrollbar-track {
+    background: 0 0;
+}
 
-::-webkit-scrollbar-thumb{background:var(--sub-color);border-radius:2px!important;transition:.125s}
+::-webkit-scrollbar-thumb {
+    background: var(--sub-color);
+    border-radius: 2px !important;
+    transition: .125s;
+}
 
-::-webkit-scrollbar-thumb:hover{background:var(--text-color)}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-color);
+}
 
-::-webkit-scrollbar-thumb:active{background:var(--main-color)}
+::-webkit-scrollbar-thumb:active {
+    background: var(--main-color);
+}
 
-::-webkit-scrollbar-corner{background:var(--sub-color)}
+::-webkit-scrollbar-corner {
+    background: var(--sub-color);
+}
 
-.pageSettings{display:grid;gap:2rem}
+.pageSettings {
+    display: grid;
+    gap: 2rem;
+}
 
-.pageSettings .tip{color:var(--sub-color)}
+.pageSettings .tip {
+    color: var(--sub-color);
+}
 
-.pageSettings .sectionGroupTitle{color:var(--sub-color);cursor:pointer;font-size:2rem;line-height:2rem;transition:.25s}
+.pageSettings .sectionGroupTitle {
+    color: var(--sub-color);
+    cursor: pointer;
+    font-size: 2rem;
+    line-height: 2rem;
+    transition: .25s;
+}
 
-.pageSettings .sectionGroupTitle:hover{color:var(--text-color)}
+.pageSettings .sectionGroupTitle:hover {
+    color: var(--text-color);
+}
 
-.pageSettings .sectionGroupTitle .fas{margin-left:.5rem}
+.pageSettings .sectionGroupTitle .fas {
+    margin-left: .5rem;
+}
 
-.pageSettings .sectionGroupTitle .fas.rotate{transform:rotate(-90deg)}
+.pageSettings .sectionGroupTitle .fas.rotate {
+    transform: rotate(-90deg);
+}
 
-.pageSettings .sectionSpacer{height:1.5rem}
+.pageSettings .sectionSpacer {
+    height: 1.5rem;
+}
 
-.pageSettings .settingsGroup{display:grid;gap:2rem}
+.pageSettings .settingsGroup {
+    display: grid;
+    gap: 2rem;
+}
 
-.pageSettings .settingsGroup.quickNav .links{display:grid;grid-auto-flow:column;text-align:center}
+.pageSettings .settingsGroup.quickNav .links {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
 
-.pageSettings .section{align-items:center;column-gap:2rem;display:grid;grid-template-areas:"title title" "text buttons";grid-template-columns:2fr 1fr}
+.pageSettings .section {
+    align-items: center;
+    column-gap: 2rem;
+    display: grid;
+    grid-template-areas: "title title" "text buttons";
+    grid-template-columns: 2fr 1fr;
+}
 
-.pageSettings .section .button.danger{box-shadow:0 0 0 2px var(--error-color);color:var(--text-color)}
+.pageSettings .section .button.danger {
+    box-shadow: 0 0 0 2px var(--error-color);
+    color: var(--text-color);
+}
 
-.pageSettings .section .button.danger:hover{background:var(--text-color);color:var(--bg-color)}
+.pageSettings .section .button.danger:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
 
-.pageSettings .section .inputAndButton{display:grid;gap:.5rem;grid-template-columns:8fr 1fr;margin-bottom:.5rem}
+.pageSettings .section .inputAndButton {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 8fr 1fr;
+    margin-bottom: .5rem;
+}
 
-.pageSettings .section .inputAndButton .button{height:auto}
+.pageSettings .section .inputAndButton .button {
+    height: auto;
+}
 
-.pageSettings .section .inputAndButton .button .fas{margin-right:0}
+.pageSettings .section .inputAndButton .button .fas {
+    margin-right: 0;
+}
 
-.pageSettings .section.autoSwitchThemeInputs{gap:2rem;grid-template-areas:unset;grid-template-columns:1fr 3fr 1fr 3fr}
+.pageSettings .section.autoSwitchThemeInputs {
+    gap: 2rem;
+    grid-template-areas: unset;
+    grid-template-columns: 1fr 3fr 1fr 3fr;
+}
 
-.pageSettings .section.autoSwitchThemeInputs select{width:100%}
+.pageSettings .section.autoSwitchThemeInputs select {
+    width: 100%;
+}
 
-.pageSettings .section.themes .tabContainer [tabcontent=custom] label.button:first-child{color:var(--text-color)}
+.pageSettings .section.themes .tabContainer [tabcontent=custom] label.button:first-child {
+    color: var(--text-color);
+}
 
-.pageSettings .section.themes .tabContainer [tabcontent=custom] label.button{color:var(--bg-color)}
+.pageSettings .section.themes .tabContainer [tabcontent=custom] label.button {
+    color: var(--bg-color);
+}
 
-.pageSettings .section.customBackgroundFilter .groups{display:grid;gap:2rem;grid-area:buttons;grid-template-columns:1fr 1fr;margin-top:2rem}
+.pageSettings .section.customBackgroundFilter .groups {
+    display: grid;
+    gap: 2rem;
+    grid-area: buttons;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+}
 
-.pageSettings .section.customBackgroundFilter .groups .group{display:grid;gap:1rem;grid-template-columns:1fr auto 2fr}
+.pageSettings .section.customBackgroundFilter .groups .group {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr auto 2fr;
+}
 
 .pageSettings .section.customBackgroundFilter .groups .group .title,
-.pageSettings .section.customBackgroundFilter .groups .group .value{color:var(--text-color)}
+.pageSettings .section.customBackgroundFilter .groups .group .value {
+    color: var(--text-color);
+}
 
-.pageSettings .section.customBackgroundFilter .saveContainer{display:grid;gap:1rem;grid-column:-1/-3;grid-template-columns:1fr 1fr 1fr}
+.pageSettings .section.customBackgroundFilter .saveContainer {
+    display: grid;
+    gap: 1rem;
+    grid-column: -1/-3;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-.pageSettings .section.customBackgroundFilter .fas{margin-right:0}
+.pageSettings .section.customBackgroundFilter .fas {
+    margin-right: 0;
+}
 
-.pageSettings .section .allCustomThemes.buttons{grid-column:1;grid-row:1;margin-bottom:1rem}
+.pageSettings .section .allCustomThemes.buttons {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 1rem;
+}
 
-.pageSettings .section .customThemeEdit{display:grid;gap:.5rem 1rem;grid-row:3;grid-template-columns:1fr 1fr 1fr 1fr;justify-items:stretch}
+.pageSettings .section .customThemeEdit {
+    display: grid;
+    gap: .5rem 1rem;
+    grid-row: 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: stretch;
+}
 
-.pageSettings .section .customThemeEdit input{width:100%}
+.pageSettings .section .customThemeEdit input {
+    width: 100%;
+}
 
-.pageSettings .section .customThemeEdit label{display:grid;place-content:center start}
+.pageSettings .section .customThemeEdit label {
+    display: grid;
+    place-content: center start;
+}
 
-.pageSettings .section .customThemeEdit p{grid-area:unset;grid-column:1/span 4}
+.pageSettings .section .customThemeEdit p {
+    grid-area: unset;
+    grid-column: 1/span 4;
+}
 
-.pageSettings .section .customThemeEdit .spacer{grid-column:3/5}
+.pageSettings .section .customThemeEdit .spacer {
+    grid-column: 3/5;
+}
 
-.pageSettings .section .groupTitle{color:var(--sub-color);font-size:1rem;font-weight:300;grid-area:title;margin:0}
+.pageSettings .section .groupTitle {
+    color: var(--sub-color);
+    font-size: 1rem;
+    font-weight: 300;
+    grid-area: title;
+    margin: 0;
+}
 
-.pageSettings .section p{color:var(--sub-color);grid-area:text;margin:0}
+.pageSettings .section p {
+    color: var(--sub-color);
+    grid-area: text;
+    margin: 0;
+}
 
-.pageSettings .section > .text{align-self:normal;color:var(--text-color);grid-area:text}
+.pageSettings .section > .text {
+    align-self: normal;
+    color: var(--text-color);
+    grid-area: text;
+}
 
-.pageSettings .section .buttons{display:grid;gap:.5rem;grid-area:buttons;grid-auto-columns:1fr;grid-auto-flow:column}
+.pageSettings .section .buttons {
+    display: grid;
+    gap: .5rem;
+    grid-area: buttons;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
 
-.pageSettings .section .buttons.vertical{grid-auto-flow:unset}
+.pageSettings .section .buttons.vertical {
+    grid-auto-flow: unset;
+}
 
-.pageSettings .section.discordIntegration .info{color:var(--main-color);grid-area:buttons;text-align:center}
+.pageSettings .section.discordIntegration .info {
+    color: var(--main-color);
+    grid-area: buttons;
+    text-align: center;
+}
 
-.pageSettings .section.discordIntegration #discordButtonGroup{display:grid;gap:.5rem;grid-auto-flow:column;justify-content:center}
+.pageSettings .section.discordIntegration #discordButtonGroup {
+    display: grid;
+    gap: .5rem;
+    grid-auto-flow: column;
+    justify-content: center;
+}
 
 .pageSettings .section.discordIntegration #unlinkDiscordButton,
-.pageSettings .section.discordIntegration #updateDiscordAvatarButton{font-size:.75rem;line-height:.7rem;margin:.5rem auto 0}
+.pageSettings .section.discordIntegration #updateDiscordAvatarButton {
+    font-size: .75rem;
+    line-height: .7rem;
+    margin: .5rem auto 0;
+}
 
-.pageSettings .section.discordIntegration .howto{color:var(--text-color);margin-top:1rem}
+.pageSettings .section.discordIntegration .howto {
+    color: var(--text-color);
+    margin-top: 1rem;
+}
 
-.pageSettings .section.tags .tagsListAndButton{grid-area:buttons}
+.pageSettings .section.tags .tagsListAndButton {
+    grid-area: buttons;
+}
 
-.pageSettings .section.tags .tag{grid-template-columns:6fr 1fr 1fr 1fr;margin-bottom:.5rem}
+.pageSettings .section.tags .tag {
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+    margin-bottom: .5rem;
+}
 
 .pageSettings .section.presets .presetsListAndButton{grid-area:buttons}
 
@@ -5706,22 +5913,30 @@ textarea:-webkit-autofill:hover {
 .pageSettings .section.themes .theme.button:hover .favButton{opacity:1;width:1.25rem}
 
 .pageSettings .section.themes .customTheme.button .delButton,
-.pageSettings .section.themes .customTheme.button .editButton{opacity:0;overflow:hidden;transition:.25s;width:1.25rem}
+.pageSettings .section.themes .customTheme.button .editButton {
+    opacity: 0;
+    overflow: hidden;
+    transition: .25s;
+    width: 1.25rem;
+}
 
 .pageSettings .section.themes .customTheme.button .delButton .far,
 .pageSettings .section.themes .customTheme.button .delButton .fas,
 .pageSettings .section.themes .customTheme.button .editButton .far,
-.pageSettings .section.themes .customTheme.button .editButton .fas{margin:0;pointer-events:none}
+.pageSettings .section.themes .customTheme.button .editButton .fas {
+    margin: 0;
+    pointer-events: none;
+}
 
 .pageSettings .section.themes .customTheme.button .delButton:hover,
-.pageSettings .section.themes .customTheme.button .editButton:hover{cursor:pointer}
+.pageSettings .section.themes .customTheme.button .editButton:hover {
+    cursor: pointer;
+}
 
 .pageSettings .section.themes .customTheme.button .delButton.active,
+.pageSettings .section.themes .customTheme.button .editButton.active {opacity:1;width:1.25rem}
 
-
-.pageSettings .section.themes .customTheme.button .editButton.active{opacity:1;width:1.25rem}
-
-.pageSettings .section.themes .customTheme.button .delButton{justify-self:end}
+.pageSettings .section.themes .customTheme.button .delButton {justify-self:end}
 
 .pageSettings .section.themes .customTheme.button:hover{transform:scale(1.1)}
 
