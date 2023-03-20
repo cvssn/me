@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decov/me.git"
+    "url": "git+https://github.com/grvo/me.git"
   },
-  "author": "decov",
+  "author": "grivo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/decov/me/issues"
+    "url": "https://github.com/grvo/me/issues"
   },
-  "homepage": "https://github.com/decov/me#readme",
+  "homepage": "https://github.com/grvo/me#readme",
   "dependencies": {
     "balloon-css": "^1.2.0",
     "editorconfig": "^1.0.1",
