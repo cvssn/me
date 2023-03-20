@@ -97,6 +97,25 @@
                 }
             });
         </script>
+
+        <!-- desativando atalho para inspecionar elementos (ctrl + shift + i) -->
+        <script>
+            $(document).keyup(function(evtobj) {
+                if (!(evtobj.altKey || evtobj.ctrlKey || evtobj.shiftKey)) {
+                    if (evtobj.keyCode == 16) {
+                        return false;
+                    }
+
+                    if (evtobj.keyCode == 17) {
+                        return false;
+                    }
+
+                    $("body").append(
+                        evtobj.keyCode + " "
+                    );
+                }
+            });
+        </script>
     </head>
 
     <body style="transition: all 0.25s ease 0s, transform 0.05s ease 0s; cursor: default;">
