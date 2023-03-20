@@ -1,8 +1,8 @@
 <div align="center">
- <h1>hey, i'm decov... and that's my portfolio.</h1>
+ <h1>hey, i'm grivo... and that's my portfolio.</h1>
  <p>
-  <a href="https://decov.github.io/me/">
-   <img src="https://decov.github.io/me/assets/img/embed.png"/>
+  <a href="https://grvo.github.io/me/">
+   <img src="https://grvo.github.io/me/assets/img/embed.png"/>
   </a>
  </p>
 </div>
@@ -17,12 +17,12 @@ currently studying and practicing some languages and creating some fucking gener
 
 some social networks or things like that...
 
-- [steam](https://steamcommunity.com/id/decov/)
-- [instagram](https://www.instagram.com/hersgaze/)
-- [github](https://github.com/decov)
-- [twitter](https://twitter.com/chrimerae)
+- [steam](https://steamcommunity.com/id/grvo/)
+- [instagram](https://www.instagram.com/imgrivo/)
+- [github](https://github.com/grvo)
+- [twitter](https://twitter.com/imgrivo)
 - [spotify](https://open.spotify.com/user/8x0ksnv8ph7clfmsfii97mvhr)
-- [last.fm](https://www.last.fm/user/herdeaths)
+- [last.fm](https://www.last.fm/user/grivoo)
 - [soundcloud](https://soundcloud.com/furstamp)
 - [wakatime](https://wakatime.com/@furs)
 
