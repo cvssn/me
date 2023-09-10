@@ -23,8 +23,12 @@ some social networks or things like that...
 - [twitter](https://twitter.com/imgrivo)
 - [spotify](https://open.spotify.com/user/8x0ksnv8ph7clfmsfii97mvhr)
 - [last.fm](https://www.last.fm/user/grivoo)
-- [soundcloud](https://soundcloud.com/furstamp)
+- [soundcloud](https://soundcloud.com/untilblur)
 - [wakatime](https://wakatime.com/@furs)
+- [bandcamp](https://untilblur.bandcamp.com/)
+- [linktree](https://linktr.ee/untilblur)
+- [bio site](https://bio.site/untilblur)
+- [carrd](https://untilblur.carrd.co/)
 
 ### /game accounts
 
@@ -78,7 +82,7 @@ markdown is a lightweight markup language for creating formatted text using a pl
 
 - ### **MIT License** / [website](https://opensource.org/licenses/MIT)
 
-Copyright 2022 decov
+Copyright 2023 grivo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
