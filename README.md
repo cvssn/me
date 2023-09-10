@@ -23,8 +23,12 @@ some social networks or things like that...
 - [twitter](https://twitter.com/imgrivo)
 - [spotify](https://open.spotify.com/user/8x0ksnv8ph7clfmsfii97mvhr)
 - [last.fm](https://www.last.fm/user/grivoo)
-- [soundcloud](https://soundcloud.com/furstamp)
+- [soundcloud](https://soundcloud.com/untilblur)
 - [wakatime](https://wakatime.com/@furs)
+- [bandcamp](https://untilblur.bandcamp.com/)
+- [linktree](https://linktr.ee/untilblur)
+- [bio site](https://bio.site/untilblur)
+- [carrd](https://untilblur.carrd.co/)
 
 ### /game accounts
 
