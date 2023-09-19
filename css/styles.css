@@ -1927,6 +1927,7 @@ key {
     display: grid;
     gap: .25rem;
     grid-auto-flow: column;
+    
     width: -moz-available;
     width: max-content;
 }
@@ -2997,6 +2998,7 @@ textarea:-webkit-autofill:hover {
 #menu .textButton.account .user {
     grid-column: 1/2;
     grid-row: 1/2;
+    
     height: 1.25em;
     width: 1.25em;
 }
@@ -3132,9 +3134,11 @@ textarea:-webkit-autofill:hover {
     font-family: Lexend Deca;
     font-size: 2rem;
     font-weight: unset;
+    
     margin-block-end: unset;
     margin-block-start: unset;
     margin-top: -.2em;
+    
     position: relative;
     transition: color .25s;
 }
@@ -3179,6 +3183,7 @@ textarea:-webkit-autofill:hover {
     grid-gap: .2rem;
     display: grid;
     grid-template-rows: .7rem .7rem .7rem;
+    
     justify-items: self-end;
     justify-self: right;
 }
@@ -5379,6 +5384,7 @@ textarea:-webkit-autofill:hover {
 .profile .details.none .typingStats {
     align-items: center;
     align-self: center;
+    
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -5595,6 +5601,7 @@ textarea:-webkit-autofill:hover {
 .profile .details .typingStats {
     align-content: space-around;
     align-self: stretch;
+    
     display: grid;
     grid-auto-flow: column;
 }
@@ -5781,6 +5788,7 @@ textarea:-webkit-autofill:hover {
 .pageSettings .section.customBackgroundFilter .saveContainer {
     display: grid;
     gap: 1rem;
+    
     grid-column: -1/-3;
     grid-template-columns: 1fr 1fr 1fr;
 }
