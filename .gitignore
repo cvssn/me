@@ -1,5 +1,4 @@
-.DS_Store
+img/
+pages/
 
-node_modules
-
-code
+manifest.json
