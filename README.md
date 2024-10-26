@@ -1,3 +1,3 @@
 # my own website
 
-better readme soon.
+readme mais bem trabalhado em breve.
