@@ -1,3 +1,3 @@
-# my own website
+# Meu Website Pessoal
 
-readme mais bem trabalhado em breve.
+O arquivo `README.md` será melhor trabalhado em breve.
