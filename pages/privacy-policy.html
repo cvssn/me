@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- meta tags importantes/necessárias -->
+        <meta charSet="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- open graph -->
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:url" content="https://cvssn.github.io/me/pages/privacy-policy">
+        <meta property="og:site_name" content="cvssn.github.io/me">
+        <meta property="og:title" content="Política de Privacidade">
+        <meta property="og:description" content="Esta Política de Privacidade descreve os procedimentos que regem a coleta, utilização e divulgação de suas informações pessoais quando você acessa este site e envia projetos gráficos e criativos através de formulários de submissão. Ao utilizar esse site você concorda explicitamente com a coleta, uso e divulgação de suas informações pessoais, conforme detalhado nesta Política de Privacidade.">
+        <!-- <meta property="og:image" content="">
+        <meta property="og:image:alt" content="Política de Privacidade">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="768"> -->
+        
+        <!-- título e descrição da página -->
+        <title>
+            política de privacidade
+        </title>
+
+        <meta name="description" content="Esta Política de Privacidade descreve os procedimentos que regem a coleta, utilização e divulgação de suas informações pessoais quando você acessa este site e envia projetos gráficos e criativos através de formulários de submissão. Ao utilizar esse site você concorda explicitamente com a coleta, uso e divulgação de suas informações pessoais, conforme detalhado nesta Política de Privacidade.">
+        
+        <!-- robôs de navegador -->
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+        
+        <!-- contagem de cabeça do next.js -->
+        <meta name="next-head-count" content="15">
+        
+        <!-- gerenciador de tags do google (gtag.js) -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SLS9BS0Y89"></script>
+
+        <!-- configuração do google tag manager -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-SLS9BS0Y89');
+        </script>
+        
+        <!-- ads do google -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3345523566625899" crossorigin="anonymous"></script>
+        
+        <!-- cor de tema -->
+        <meta id="theme-color-meta" name="theme-color" content="">
+        
+        <!-- scripts -->
+        <script>
+            const meta = document.getElementById('theme-color-meta');
+
+            try {
+                if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    document.documentElement.classList.add('dark');
+
+                    if (meta) {
+                        meta.content = "#070707"
+                    }
+                } else {
+                    document.documentElement.classList.remove('dark');
+
+                    if (meta) {
+                        meta.content = "#F3F3EE"
+                    }
+                }
+            } catch {}
+        </script>
+        
+        <script>
+            try {
+                if (!localStorage.content) {
+                    localStorage.setItem('content', 'project-content-visible')
+                }
+
+                if (localStorage.content === 'project-content-visible') {
+                    document.documentElement.classList.add('project-content-visible')
+
+                    document.documentElement.classList.remove('gallery-view')
+                } else {
+                    document.documentElement.classList.remove('project-content-visible')
+
+                    document.documentElement.classList.add('gallery-view')
+                }
+            } catch {}
+        </script>
+        
+        <!-- verificação de domínio -->
+        <meta name="p:domain_verify" content="b9a7059617ba1ef457f6adb431c247ab">
+        
+        <!-- ícones -->
+        <link rel="apple-icon" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../img/icon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="../img/icon/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="../img/icon/android-chrome-512x512.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/icon/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/icon/favicon-32x32.png">
+        <link rel="shortcut icon" href="../img/icon/favicon.ico">
+        
+        <!-- cores e temas -->
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+        <!-- estilizações css pré-carregadas -->
+        <link rel="preload" href="https://theessential.design/_next/static/css/0e9d4ac398c4e6f7.css" as="style">
+        <link rel="stylesheet" href="https://theessential.design/_next/static/css/0e9d4ac398c4e6f7.css" data-n-g="">
+        <link rel="preload" href="https://theessential.design/_next/static/css/78223c326d5679bc.css" as="style">
+        <link rel="stylesheet" href="https://theessential.design/_next/static/css/78223c326d5679bc.css" data-n-p="">
+        
+        <!-- noscript -->
+        <noscript data-n-css=""></noscript>
+        
+        <!-- javascript -->
+        <script defer="" nomodule="" src="https://theessential.design/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script>
+        <script src="https://theessential.design/_next/static/chunks/webpack-fc897e78d80214c0.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/chunks/framework-7a7e500878b44665.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/chunks/main-716e154046ab5dc7.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/chunks/pages/_app-e3a93ddd1536afb0.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/chunks/877-c3c571ed531b5d98.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/chunks/238-44fd80ea460ed3bd.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/chunks/pages/privacy-policy-0470e8e078acdcce.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/6Xr-9tFSlSValbDV-sRMf/_buildManifest.js" defer=""></script>
+        <script src="https://theessential.design/_next/static/6Xr-9tFSlSValbDV-sRMf/_ssgManifest.js" defer=""></script>
+
+        <!-- desativando a visibilidade da scrollbar -->
+        <style>
+            ::-webkit-scrollbar {
+                display: none;
+            }
+        </style>
+    </head>
+    
+    <body class="base-background-color base-text-color">
+        <div id="__next">
+            <header class="Header_header__ZsDz_ base-text-color base-background-color">
+                <div class="grid-container">
+                    <div class="grid-x items-center Header_headerContainer__0QwWn">
+                        <div class="col-span-8 md:col-span-6">
+                            <a title="home" class="Logo_logo__J4dcO" href="https://cvssn.github.io/me">
+                                <span class="text-body-16-20 link whitespace-nowrap">
+                                    Cavassani - Meu Arquivo Digital
+                                </span>
+                            </a>
+                        </div>
+                        
+                        <div class="col-span-4 md:col-span-6 lg:col-span-3 flex items-center lg:justify-start justify-end">
+                            <div class="hidden lg:block">
+                                <div class="HeaderLinksMobile_linksWrapper__NwN_T">
+                                    <a class="link text-body-16-20 mr-2" title="Diretório" href="../soon.html">
+                                        Diretório
+                                    </a>
+                                    
+                                    <a class="link text-body-16-20 mr-2" title="Feed" href="../soon.html">
+                                        Feed
+                                    </a>
+                                    
+                                    <a class="link text-body-16-20 mr-2" title="Index" href="../soon.html">
+                                        Index
+                                    </a>
+                                    
+                                    <a class="link text-body-16-20 mr-2" title="Mercado" href="../soon.html">
+                                        Mercado
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="lg:hidden">
+                                <div class="Overlay_overlay__Vn1FX base-background-color"></div>
+                            </div>
+                            
+                            <div class="flex lg:hidden">
+                                <div class="HeaderLinksMobile_wrapper__lWtJ0  base-background-color base-text-color">
+                                    <div class="grid-container self-center w-full mb-32">
+                                        <div class="mb-16">
+                                            <a class="HeaderLinksMobile_navLink__aArx_ mb-1" title="Diretório" href="../soon.html">
+                                                <span class="HeaderLinksMobile_navLinkContent__yQVhB grid-x">
+                                                    <span class="col-span-6">
+                                                        Diretório
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            
+                                            <a class="HeaderLinksMobile_navLink__aArx_ mb-1" title="Feed" href="../soon.html">
+                                                <span class="HeaderLinksMobile_navLinkContent__yQVhB grid-x">
+                                                    <span class="col-span-6">
+                                                        Feed
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            
+                                            <a class="HeaderLinksMobile_navLink__aArx_ mb-1" title="Index" href="../soon.html">
+                                                <span class="HeaderLinksMobile_navLinkContent__yQVhB grid-x">
+                                                    <span class="col-span-6">
+                                                        Index
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            
+                                            <a class="HeaderLinksMobile_navLink__aArx_ mb-1" title="Mercado" href="../soon.html">
+                                                <span class="HeaderLinksMobile_navLinkContent__yQVhB grid-x">
+                                                    <span class="col-span-6">
+                                                        Mercado
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="mb-16">
+                                            <!-- <a target="_blank" rel="noopener noreferrer" class="HeaderLinksMobile_navLink__aArx_ mb-1" title="Buy Me a Coffee" href="https://buymeacoffee.com/theessential">
+                                                <span class="HeaderLinksMobile_navLinkContent__yQVhB">
+                                                    Buy Me a Coffee
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        
+                                        <!-- <a class="HeaderLinksMobile_navLink__aArx_ underline" title="Submit" href="/submit">
+                                            <span class="HeaderLinksMobile_navLinkContent__yQVhB grid-x items-center">
+                                                <span class="col-span-6">
+                                                    <svg class="mr-1" width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.0097 5.15113L7.91966 1.06109L9.00004 0L15 6L9.00004 12L7.91966 10.9196L12.0097 6.84887H0.704224V5.15113H12.0097Z" fill="currentColor"></path>
+                                                    </svg>
+                                                </span>
+                                                
+                                                <span class="col-span-6">
+                                                    Enviar
+                                                </span>
+                                            </span>
+                                        </a> -->
+                                    </div>
+                                    
+                                    <div class="grid-container w-full mb-8">
+                                        <div class="grid-x">
+                                            <span class="col-span-6 lg:col-span-4 xl:col-span-2">
+                                                Modo escuro
+                                            </span>
+                                            
+                                            <span class="col-span-6 lg:col-span-8 xl:col-span-10">
+                                                <button type="button" class="HeaderThemeSwitcher_themeSwitcherButton__hgMwn  text-body-16-20 link">
+                                                    <span class="dark:hidden block">
+                                                        Desligado
+                                                    </span>
+
+                                                    <span class="hidden dark:block">
+                                                        Ligado
+                                                    </span>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="text-body-16-20 grid-x mt-1">
+                                            <div class="col-span-6">
+                                                Atualizado
+                                            </div>
+                                            
+                                            <div class="col-span-6">
+                                                em 26 de Outubro de 2024
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button type="button" class="link">
+                                    <span class="MobileMenuButton_iconWrapper__XQBg9">
+                                        <span class="MobileMenuButton_icon__k9pf9 text-body-16-20 MobileMenuButton_iconActive__4H7q1">
+                                            Menu
+                                        </span>
+                                        
+                                        <span class="MobileMenuButton_icon__k9pf9 text-body-16-20">
+                                            Fechar
+                                        </span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="col-span-3 hidden lg:block">
+                            <div class="flex-shrink-0 flex items-center justify-between Header_headerActionsWrapper__Pn83O">
+                                <div class="xl:block hidden">
+                                    <!-- <a href="https://buymeacoffee.com/theessential" target="_blank" rel="noreferrer" class="link text-body-16-20 mr-2">
+                                        Buy Me a Coffee
+                                    </a> -->
+                                </div>
+                                
+                                <a class="link whitespace-nowrap inline-flex items-center text-body-16-20" href="https://www.instagram.com/cavassxni" target="_blank" rel="noopener noreferrer">
+                                    <svg class="mr-1" width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.0097 5.15113L7.91966 1.06109L9.00004 0L15 6L9.00004 12L7.91966 10.9196L12.0097 6.84887H0.704224V5.15113H12.0097Z" fill="currentColor"></path>
+                                    </svg>
+                                    
+                                    Visualizar Instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <main class="Layout_content__PrPCk">
+                <div class="grid-container pt-8">
+                    <div class="grid-x">
+                        <div class="col-span-12 lg:col-span-5">
+                            <h1 class="text-title-24-28 lg:text-title-46-52">
+                                Política de privacidade
+                            </h1>
+                            
+                            <p class="text-body-16-20">
+                                (atualizado em 8 de Outubro de 2023)
+                            </p>
+                            
+                            <div class="text-body-24-28 mt-4 lg:mt-8">
+                                <p class="mb-4 last:mb-0">
+                                    Esta Política de Privacidade descreve os procedimentos que regem a coleta, utilização e divulgação de suas informações pessoais quando você acessa este site e envia projetos gráficos e criativos através de formulários de submissão. Ao utilizar esse site você concorda explicitamente com a coleta, uso e divulgação de suas informações pessoais, conforme detalhado nesta Política de Privacidade.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-x row-gap-0 lg:mt-16 mt-8">
+                        <div class="lg:col-span-6 col-span-12">
+                            <h2 class="text-body-24-28 mb-4">
+                                1. Informações Coletadas
+                            </h2>
+                        </div>
+                        
+                        <div class="lg:col-span-6 col-span-12">
+                            <div class="text-body-24-28">
+                                <p class="mb-4 last:mb-0">
+                                    1.1 Informação Pessoal: Quando o formulário de inscrição é utilizado, é possibilitado a coleta de suas informações pessoais, abrangendo, mas não se restringindo a:
+                                </p>
+
+                                <p class="mb-4 last:mb-0">
+                                    Nome completo • Endereço de email • Informação de contato • Descrição e detalhes de projeto • Imagens e vídeos do seu trabalho
+                                </p>
+
+                                <p class="mb-4 last:mb-0">
+                                    1.2 Informação Automaticamente Coletada: Durante a sua visita ao site, pode-se coletar automaticamente informações específicas relacionadas ao seu dispositivo, atividades de navegação e padrões. Essas informações podem incluir seu endereço IP, tipo de navegador, sistema operacional, URLs de referência e outros detalhes técnicos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-x row-gap-0 lg:mt-16 mt-8">
+                        <div class="lg:col-span-6 col-span-12">
+                            <h2 class="text-body-24-28 mb-4">
+                                2. Uso da Informação
+                            </h2>
+                        </div>
+                        
+                        <div class="lg:col-span-6 col-span-12">
+                            <div class="text-body-24-28">
+                                <p class="mb-4 last:mb-0">
+                                    2.1 Informação Pessoal: As informações pessoais coletadas de você podem ser utilizadas para os seguintes fins:
+                                </p>
+
+                                <p class="mb-4 last:mb-0">
+                                    Verificar sua Identidade • Fornecer suporte ao cliente • Aprimorar e personalizar sua experiência de usuário • Processar pagamentos, se aplicável • Enviar materiais promocionais e atualizações com o seu consentimento
+                                </p>
+
+                                <p class="mb-4 last:mb-0">
+                                    2.2 Informação Automaticamente Coletada. As informações coletadas automaticamente podem ser utilizadas para fins internos, incluindo:
+                                </p>
+
+                                <p class="mb-4 last:mb-0">
+                                    ➔ Tendências de análise<br> <!--   -->
+                                    ➔ Administração do website<br> <!--   -->
+                                    ➔ Coleta de informações demográficas.
+                                </p>
+
+                                <p class="mb-4 last:mb-0">
+                                    Esta informação ajuda a melhorar o site e a garantir um melhor funcionamento.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-x row-gap-0 lg:mt-16 mt-8">
+                        <div class="lg:col-span-6 col-span-12">
+                            <h2 class="text-body-24-28 mb-4">
+                                3. Compartilhamento da Informação
+                            </h2>
+                        </div>
+                        
+                        <div class="lg:col-span-6 col-span-12">
+                            <div class="text-body-24-28">
+                                <p class="mb-4 last:mb-0">
+                                    3.1 Provedores de Serviços: Para facilitar vários serviços, como o processamento de conexões, análise de dados, atendimento ao cliente e assistência de marketing, pode-se compartilhar suas informações pessoais com prestadores de serviços terceirizados. Estes prestadores de serviços estão obrigados a manter a confidencialidade das suas informações e estão estritamente proibidos de utilizá-las para qualquer outro fim.
+                                </p>
+                                
+                                <p class="mb-4 last:mb-0">
+                                    3.2 Requisitos Legais: Pode-se divulgar as suas informações pessoais se exigido por lei ou em resposta a solicitações válidas de autoridades públicas, como um tribunal ou agência governamental.
+                                </p>
+                                
+                                <p class="mb-4 last:mb-0">
+                                    3.3 Transferências Empresariais: Se o site em si passar por uma fusão, aquisição ou venda de ativos, suas informações pessoais poderão ser transferidas para a entidade adquirente como parte da transação. Nesses casos, será notificado por meio do email um aviso em destaque no site sobre quaisquer alterações na propriedade ou no controle de suas informações pessoais.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-x row-gap-0 lg:mt-16 mt-8">
+                        <div class="lg:col-span-6 col-span-12">
+                            <h2 class="text-body-24-28 mb-4">
+                                4. Segurança
+                            </h2>
+                        </div>
+                        
+                        <div class="lg:col-span-6 col-span-12">
+                            <div class="text-body-24-28">
+                                <p class="mb-4 last:mb-0">
+                                    Reconhece-se a importância da proteção das suas informações pessoais, e precauções são tomadas para protegê-las. São empregadas medidas técnicas e organizacionais apropriadas para aumentar sua segurança. No entanto, é essencial reconhecer que nenhum método de transmissão pela Internet ou armazenamento eletrônico pode garantir 100% de segurança. <br><br>  Apesar dos melhores esforços, não pode-se garantir a segurança absoluta dos seus dados. Portanto, é aconselhável que você tenha cautela e esteja ciente dos riscos inerentes associados à transmissão de informações pessoais online. Ao utilizar este site e seus respectivos serviços, você reconhece e aceita essas limitações e entende que compartilha suas informações por sua própria conta e risco.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-x row-gap-0 lg:mt-16 mt-8">
+                        <div class="lg:col-span-6 col-span-12">
+                            <h2 class="text-body-24-28 mb-4">
+                                5. Suas Escolhas
+                            </h2>
+                        </div>
+                        
+                        <div class="lg:col-span-6 col-span-12">
+                            <div class="text-body-24-28">
+                                <p class="mb-4 last:mb-0">
+                                    Você mantém o direito de acessar, corrigir ou excluir suas informações pessoais mantidas pelo site. Além disso, você tem a prerrogativa de retirar seu consentimento para usos específicos de suas informações. Se desejar exercer algum destes direitos, por favor entre em contato através das opções fornecidas no final desta Política de Privacidade. <br><br> Sua solicitação será analisada e respondida de acordo com as leis e regulamentos de privacidade aplicáveis. A sua privacidade e proteção de dados são de extrema importância, sendo assim, será respondida quaisquer preocupações que possa ter em relação às suas informações pessoais.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-x row-gap-0 lg:mt-16 mt-8">
+                        <div class="lg:col-span-6 col-span-12">
+                            <h2 class="text-body-24-28 mb-4">
+                                6. Contato
+                            </h2>
+                        </div>
+                        
+                        <div class="lg:col-span-6 col-span-12">
+                            <div class="text-body-24-28">
+                                <p class="mb-4 last:mb-0">
+                                    Se você tiver alguma dúvida, preocupação ou solicitação relacionada a esta Política de Privacidade ou à maneira de como são tratadas as suas informações pessoais, sinta-se livre de entrar em contato através dos seguintes dados de contato:
+                                </p>
+                                
+                                <p class="mb-4 last:mb-0">
+                                    ➔ <a href="mailto:cavassani.me@gmail.com" class="link underline">
+                                        cavassani.me@gmail.com
+                                    </a>
+                                </p>
+                                
+                                <p class="mb-4 last:mb-0">
+                                    A sua privacidade é valorizada e existe-se o compromisso de responder a quaisquer dúvidas que você possa ter sobre a coleta, uso e proteção de suas informações pessoais. Não hesite em se contactar, sua solicitação será atendida assim que possível.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="Spinner_pageLoader__0qgZf"></div>
+                
+                <div class="CookiesPopup_popup__VzmKd base-background-color base-text-color">
+                    <div class="grid-container">
+                        <div class="CookiesPopup_content__977gp base-border-color">
+                            <div class="text-body-16-20 lg:pr-4 mb-4 lg:mb-0">
+                                <p class="mb-4 last:mb-0">
+                                    Utilizamos cookies para melhorar a sua experiência de navegação. Ao continuar a utilizar este site, você concorda com o uso de cookies de acordo com nossa Política de Cookies. Para mais informação, por favor leia nossa <a href="/" class="link underline">Política de Privacidade</a>.
+                                </p>
+                            </div>
+                            
+                            <button type="button" class="lg:ml-auto text-body-16-20 text-left flex-shrink-0">
+                                Aceitar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            
+            <footer class="Footer_footerContainer__WYBGQ base-background-color pb-8 lg:pb-4 mt-8 lg:mt-16">
+                <div class="grid-container text-center lg:text-left">
+                    <p class="text-body-16-20">
+                        Arquivo Digital de Cavassani
+                    </p>
+                    
+                    <p class="text-body-16-20">
+                        <span class="hidden lg:block">
+                            2023 - 2024. Made with love by Cavassani.
+                        </span>
+                        
+                        <span class="block lg:hidden">
+                            <span>
+                                2023 - 2024.
+                            </span>
+                            
+                            <br>
+                            
+                            Made with love by Cavassani.
+                        </span>
+                    </p>
+                    
+                    <p class="text-body-16-20">
+                        Atualizado em 26 de Outubro de 2024
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
